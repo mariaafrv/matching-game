@@ -1,10 +1,10 @@
 import "./style.css"
 
-function CardGame() {
+function CardGame(icon = "zoom", alt = "Icone de lupa") {
     
     let card = /*html*/ `
     <article class="card-game">
-        <img src= "images/zoom.png" class="card-logo">
+        <img src= "images/${icon}.png" class="card-logo" alt="${alt}">
     </article>
 `
   return card
